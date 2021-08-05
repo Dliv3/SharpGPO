@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29920.165
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpGPO", "SharpGPO\SharpGPO.csproj", "{09C4D49E-2EEA-4745-8810-D7E492391CAE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{09C4D49E-2EEA-4745-8810-D7E492391CAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09C4D49E-2EEA-4745-8810-D7E492391CAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09C4D49E-2EEA-4745-8810-D7E492391CAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09C4D49E-2EEA-4745-8810-D7E492391CAE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {321CCF96-6749-43D6-8F68-782274AF6D4A}
+	EndGlobalSection
+EndGlobal
