@@ -1,6 +1,6 @@
 # SharpGPO
 
-SharpGPOAbuse is a Red Team tool written in C# that can be used to remotely manipulate Group Policy Object (GPO), Organizational Unit (OU), GPLink and Security Filtering.
+SharpGPO is a Red Team tool written in C# that can be used to remotely manipulate Group Policy Object (GPO), Organizational Unit (OU), GPLink and Security Filtering.
 
 ## Usage
 
