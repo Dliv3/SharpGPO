@@ -95,14 +95,14 @@ namespace SharpGPO
         {
             return new DirectoryEntry(
                 $@"LDAP://{DomainController}/{DomainDistingushedName}",
-                username, password, AuthenticationTypes.Secure);
+                username, password, AuthenticationTypes.Secure | AuthenticationTypes.Sealing | AuthenticationTypes.Signing);
         }
 
         public DirectoryEntry ConnectLdap(string path)
         {
             return new DirectoryEntry(
                 $@"LDAP://{DomainController}/{path}",
-                username, password, AuthenticationTypes.Secure);
+                username, password, AuthenticationTypes.Secure | AuthenticationTypes.Sealing | AuthenticationTypes.Signing);
         }
 
         public bool Exists(string path)
