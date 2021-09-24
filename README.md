@@ -111,10 +111,3 @@ SharpGpo.exe --Action RemoveSecurityFiltering --GUID F3402420-8E2A-42CA-86BE-4C5
 SharpGpo.exe --Action RemoveSecurityFiltering --GUID F3402420-8E2A-42CA-86BE-4C5594FA5BD8 --NTAccount "Authenticated Users"
 ```
 
-## Build
-
-Merge the SharpGPO.exe and the CommandLine.dll into one executable file
-
-```powershell
-.\ILMerge.exe /out:Z:\exps\SharpGPO.exe Z:\exps\SharpGPO\SharpGPO\bin\Release\SharpGPO.exe Z:\exps\SharpGPO\SharpGPO\bin\Release\CommandLine.dll
-```
