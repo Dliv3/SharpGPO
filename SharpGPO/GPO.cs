@@ -54,12 +54,12 @@ namespace SharpGPO
             DirectorySearcher searcher = new DirectorySearcher(policies);
             searcher.Filter = $@"(displayName={gpoName})";
             SearchResultCollection results = searcher.FindAll();
-            List<DirectoryEntry> ous = new List<DirectoryEntry>();
+            List<DirectoryEntry> gpos = new List<DirectoryEntry>();
             foreach (SearchResult result in results)
             {
-                ous.Add(result.GetDirectoryEntry());
+                gpos.Add(result.GetDirectoryEntry());
             }
-            return ous.ToArray();
+            return gpos.ToArray();
         }
 
         public DirectoryEntry[] GetGPODetails(string gpoName)
